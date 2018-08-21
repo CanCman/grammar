@@ -1,0 +1,8 @@
+START -> SGNS MANT EXP
+SGNS -> + | - | e
+MANT -> DIGIT FLOAT | . DIGIT
+FLOAT -> . DIGIT2 | e
+EXP -> SGNE SGNS DIGIT | e
+DIGIT -> 0-9 DIGIT2
+DIGIT2 -> DIGIT | e
+SGNE -> e | E

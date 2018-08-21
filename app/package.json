@@ -1,0 +1,14 @@
+{
+	"main":"index.html",
+	"name":"first app",
+	"description":"My first app, what do you want else ?",
+	"version":"0.0.0.1",
+	"author":"CanCman",
+	"window": {
+			"title":"APP",
+			// "toolbar":false,/
+			"frame":true,
+			"width":700,
+			"height":400
+	}
+}
